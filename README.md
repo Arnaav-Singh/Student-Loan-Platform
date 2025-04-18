@@ -47,7 +47,7 @@ provide information, and answer common queries.
 - **Backend**: Node.js, Express.js
 - **Database**: MySQL
 - **Frontend**: React.js (Hosted separately)
-- **Deployment**: Firebase (Frontend), AWS (Backend - planned)
+
 
 ---
 
@@ -134,4 +134,4 @@ MIT © [Arnaav Singh](https://github.com/Arnaav-Singh)
 Got questions or ideas? Reach out:
 
 - GitHub: [@Arnaav-Singh](https://github.com/Arnaav-Singh)
-- Email: *add your email here if you'd like*
+- Email: *arnaavsingh5@gmail.com*
