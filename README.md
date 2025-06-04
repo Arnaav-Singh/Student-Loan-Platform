@@ -1,142 +1,73 @@
+# Welcome to your Lovable project
 
-# Student Loan Platform 🎓💰
+## Project info
 
-A comprehensive web platform for managing student loans, complaints, room reservations, and customer details. Built with **Node.js** (backend), **MySQL** (database), and designed to be connected to a **React.js** frontend.
+**URL**: https://lovable.dev/projects/01599b46-9286-48e5-9610-2889c15e38fa
 
-## 🌐 Live Demo (Coming Soon)
-Stay tuned! A live deployment link will be added once the frontend is fully integrated.
+## How can I edit this code?
 
----
+There are several ways of editing your application.
 
-## 📂 Repository Structure
+**Use Lovable**
 
+Simply visit the [Lovable Project](https://lovable.dev/projects/01599b46-9286-48e5-9610-2889c15e38fa) and start prompting.
+
+Changes made via Lovable will be committed automatically to this repo.
+
+**Use your preferred IDE**
+
+If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+
+The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+
+Follow these steps:
+
+```sh
+# Step 1: Clone the repository using the project's Git URL.
+git clone <YOUR_GIT_URL>
+
+# Step 2: Navigate to the project directory.
+cd <YOUR_PROJECT_NAME>
+
+# Step 3: Install the necessary dependencies.
+npm i
+
+# Step 4: Start the development server with auto-reloading and an instant preview.
+npm run dev
 ```
-student-loan-platform/
-├── config/            # Database connection & config
-├── controllers/       # Request handlers and business logic
-├── models/            # MySQL queries and data models
-├── routes/            # API endpoints
-├── server.js          # Entry point
-├── .env               # Environment variables
-└── README.md          # You're here!
-```
 
----
+**Edit a file directly in GitHub**
 
-## 🧠 Key Features
+- Navigate to the desired file(s).
+- Click the "Edit" button (pencil icon) at the top right of the file view.
+- Make your changes and commit the changes.
 
-1. User Registration and Authentication: Secure registration and login for students using
-their university credentials.
-2. Loan Application: An online form for students to apply for loans, specifying the amount
-and purpose.
-3. Loan Approval Workflow: Automated and manual processes for reviewing and approving
-loan applications.
-4. Repayment Tracking: Tools for students to view their repayment schedules and make
-payments.
-5. Credit Assessment: Evaluation of students' creditworthiness based on their academic
-performance and financial history.
-6. Notifications and Alerts: Automated notifications for loan status updates, repayment
-reminders, and important announcements.
-7. AI Chatbot: An AI-powered chatbot to assist students with loan applications,
-provide information, and answer common queries.
+**Use GitHub Codespaces**
 
----
+- Navigate to the main page of your repository.
+- Click on the "Code" button (green button) near the top right.
+- Select the "Codespaces" tab.
+- Click on "New codespace" to launch a new Codespace environment.
+- Edit files directly within the Codespace and commit and push your changes once you're done.
 
-## 🛠️ Tech Stack
+## What technologies are used for this project?
 
-- **Backend**: Node.js, Express.js
-- **Database**: MySQL
-- **Frontend**: React.js (Hosted separately)
+This project is built with:
 
+- Vite
+- TypeScript
+- React
+- shadcn-ui
+- Tailwind CSS
 
----
+## How can I deploy this project?
 
-## 🚀 Getting Started
+Simply open [Lovable](https://lovable.dev/projects/01599b46-9286-48e5-9610-2889c15e38fa) and click on Share -> Publish.
 
-### Prerequisites
+## Can I connect a custom domain to my Lovable project?
 
-- Node.js
-- MySQL
-- npm or yarn
+Yes it is!
 
-### Installation
+To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
 
-1. **Clone the repo**
-   ```bash
-   git clone https://github.com/Arnaav-Singh/Student-Loan-Platform.git
-   cd Student-Loan-Platform
-   ```
-
-2. **Install dependencies**
-   ```bash
-   npm install
-   ```
-
-3. **Configure your `.env` file**
-   ```bash
-   DB_HOST=localhost
-   DB_USER=root
-   DB_PASSWORD=yourpassword
-   DB_NAME=student_loans
-   ```
-
-4. **Start the server**
-   ```bash
-   npm start
-   ```
-
----
-
-## 🗂️ Database Tables
-
-- `users`: Platform user credentials
-- `customers`: Student/customer records
-- `complaints`: Complaint details and statuses
-- `room_types`: Room categories and pricing
-- `reservations`: Booking records
-
----
-
-## 📬 API Endpoints (Sample)
-
-- `GET /customers` – Get all customers
-- `POST /complaints` – File a new complaint
-- `DELETE /reservations/:id` – Cancel a reservation
-
-(Fully documented API collection coming soon!)
-
----
-
-## 📈 Future Plans
-
-- 🔐 JWT Auth & role-based access
-- 📊 Admin dashboard
-- 📱 Mobile responsiveness via React
-- 🧪 Unit & integration tests
-- ☁️ AWS deployment (EC2, RDS)
-
----
-
-## 🛠️Made By
-
-- [Arnaav Singh](https://github.com/Arnaav-Singh)
-- [Manan Sethi](https://github.com/MananSethiii)
-
-## 🤝 Contributing
-
-Pull requests are welcome! For major changes, please open an issue first to discuss what you’d like to change.
-
----
-
-## 📄 License
-
-MIT © [Arnaav Singh](https://github.com/Arnaav-Singh)
-
----
-
-## 📫 Contact
-
-Got questions or ideas? Reach out:
-
-- GitHub: [@Arnaav-Singh](https://github.com/Arnaav-Singh)
-- Email: *arnaavsingh5@gmail.com*
+Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
