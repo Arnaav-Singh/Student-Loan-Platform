@@ -117,6 +117,11 @@ provide information, and answer common queries.
 
 ---
 
+## 🛠️Made By
+
+- [Arnaav Singh](https://github.com/Arnaav-Singh)
+- [Manan Sethi](https://github.com/MananSethiii)
+
 ## 🤝 Contributing
 
 Pull requests are welcome! For major changes, please open an issue first to discuss what you’d like to change.
