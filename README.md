@@ -121,6 +121,7 @@ provide information, and answer common queries.
 
 - [Arnaav Singh](https://github.com/Arnaav-Singh)
 - [Manan Sethi](https://github.com/MananSethiii)
+- [Dhruveel Shah](https://github.com/Dhruveel5780)
 
 ## 🤝 Contributing
 
